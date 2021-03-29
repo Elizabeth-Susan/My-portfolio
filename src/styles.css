@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+body.homepage {
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Jomolhari", serif;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1;
+  margin: 0;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+p {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 15px;
+  line-height: 1.5;
+  font-family: "Jomolhari", serif;
+}
