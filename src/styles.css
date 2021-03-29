@@ -5,6 +5,7 @@
   --rotate-font-family: "Train One", cursive;
   --primary-color: #810000;
   --secondary-color: #161d6f;
+  --accent-color: #fafafa;
 }
 
 body {
@@ -96,6 +97,43 @@ header .about-heading {
 
 header .contact-heading {
   position: absolute;
+}
+
+/* about page */
+
+section p.intro,
+section marquee.sneak-peak {
+  padding-top: 60px;
+  font-size: 30px;
+  margin: 0 70px;
+  font-family: var(--default-font-family);
+}
+
+section marquee.sneak-peak {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* contact page */
+
+section h1.heading {
+  font-size: 50px;
+}
+
+section a {
+  padding: 10px 14px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 150ms ease-in-out;
+  color: var(--primary-color);
+}
+
+section a:hover {
+  color: var(--accent-color);
+  background: var(--primary-color);
+  filter: drop-shadow(2px 4px 8px #000);
 }
 
 /* hero of the page */
