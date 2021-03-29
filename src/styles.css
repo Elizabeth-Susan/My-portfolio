@@ -185,6 +185,43 @@ section a:hover {
   border-radius: 15px;
 }
 
+/* about page images and links */
+
+section img {
+  max-width: 50px;
+}
+
+section img:hover {
+  transform: scale(1.07);
+}
+
+.container div a {
+  background: transparent;
+  border-radius: 5px;
+  padding: 10px 20px;
+  line-height: 1.5;
+  border: 3px solid var(--primary-color);
+}
+
+.container div a,
+.footer-links {
+  font-family: var(--cursive-font-family);
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.container div a:hover {
+  color: var(--secondary-color);
+  border: 3px solid var(--secondary-color);
+  filter: none;
+  font-weight: 800;
+}
+
+.contact-me-page {
+  text-align: center;
+}
+
 .bubbles img {
   width: 50px;
   animation: bubble 7s linear infinite;
