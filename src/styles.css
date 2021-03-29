@@ -29,6 +29,55 @@ p {
   font-family: "Jomolhari", serif;
 }
 
+/* navigation styling */
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 15px;
+}
+
+nav li.active a {
+  color: #810000;
+}
+
+nav a {
+  text-decoration: none;
+  color: #161d6f;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: "Jomolhari", serif;
+  transition: all 200ms ease-in-out;
+}
+
+nav a:hover {
+  color: #810000;
+  font-size: 22px;
+}
+
+/* logos */
+
+.logo {
+  max-height: 70px;
+  border-radius: 50%;
+}
+
+.logo-small {
+  max-height: 40px;
+  border-radius: 15px;
+}
+
+
 .bubbles img {
   width: 50px;
   animation: bubble 7s linear infinite;

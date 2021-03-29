@@ -38,7 +38,27 @@
     <!-- CSS link -->
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
-  <body>
+  <body class="homepage">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img src="/images/logo.jpg" alt="Elizabeth logo" class="logo d-none d-sm-block" />
+          <img src="/images/logo-small.jpg" alt="Elizabeth logo" class="logo-small d-block d-sm-none" />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Elizabeth"> About</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Elizabeth"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <!-- Hero of the page -->
     <header class="hero text-center">
       <h2 class="mb-3">👋 Hello, my name is</h2>
