@@ -1,7 +1,16 @@
+:root {
+  --background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  --cursive-font-family: "Akaya Telivigala", cursive;
+  --default-font-family: "Jomolhari", serif;
+  --rotate-font-family: "Train One", cursive;
+  --primary-color: #810000;
+  --secondary-color: #161d6f;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background: var(--background);
 }
 
 body.homepage {
@@ -11,14 +20,14 @@ body.homepage {
 h2 {
   font-size: 30px;
   font-weight: 700;
-  font-family: "Jomolhari", serif;
+  font-family: var(--default-font-family);
 }
 
 h1 {
   font-size: 70px;
   line-height: 1;
   margin: 0;
-  font-family: "Akaya Telivigala", cursive;
+  font-family: var(--cursive-font-family);
 }
 
 p {
@@ -26,7 +35,7 @@ p {
   font-weight: 600;
   margin-top: 15px;
   line-height: 1.5;
-  font-family: "Jomolhari", serif;
+  font-family: var(--default-font-family);
 }
 
 /* navigation styling */
@@ -48,20 +57,20 @@ nav li {
 }
 
 nav li.active a {
-  color: #810000;
+  color: var(--primary-color);
 }
 
 nav a {
   text-decoration: none;
-  color: #161d6f;
+  color: var(--secondary-color);
   font-weight: 800;
   font-size: 18px;
-  font-family: "Jomolhari", serif;
+  font-family: var(--default-font-family);
   transition: all 200ms ease-in-out;
 }
 
 nav a:hover {
-  color: #810000;
+  color: var(--primary-color);
   font-size: 22px;
 }
 
@@ -71,11 +80,11 @@ header h1.title,
 header .about-heading {
   left: 6px;
   top: 35%;
-  color: #810000;
+  color: var(--primary-color);
   transform: rotate(180deg);
   writing-mode: vertical-lr;
   font-size: 60px;
-  font-family: "Train One", cursive;
+  font-family: var(--rotate-font-family);
   font-weight: 600;
   letter-spacing: 5px;
   margin-left: 10px;
@@ -97,8 +106,8 @@ header .contact-heading {
 
 .hero p span {
   font-weight: 800;
-  color: #161d6f;
-  font-family: "Akaya Telivigala", cursive;
+  color: var(--secondary-color);
+  font-family: var(--cursive-font-family);
   font-size: 50px;
 }
 
@@ -108,12 +117,12 @@ header .contact-heading {
 }
 
 .project-links a {
-  color: #161d6f;
+  color: var(--secondary-color);
   font-weight: 600;
-  font-family: "Jomolhari", serif;
+  font-family: var(--default-font-family);
   padding: 10px 25px;
   background: transparent;
-  border: 3px solid #161d6f;
+  border: 3px solid var(--secondary-color);
   border-radius: 30px;
   text-decoration: none;
   outline: none;
@@ -122,8 +131,8 @@ header .contact-heading {
 }
 
 .project-links a:hover {
-  color: #810000;
-  border: 3px solid #810000;
+  color: var(--primary-color);
+  border: 3px solid var(--primary-color);
 }
 
 /* logos */
