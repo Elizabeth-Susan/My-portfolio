@@ -65,6 +65,43 @@ nav a:hover {
   font-size: 22px;
 }
 
+/* hero of the page */
+
+.hero {
+  padding: 50px 20px 40px;
+}
+
+.hero p span {
+  font-weight: 800;
+  color: #161d6f;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 50px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+}
+
+.project-links a {
+  color: #161d6f;
+  font-weight: 600;
+  font-family: "Jomolhari", serif;
+  padding: 10px 25px;
+  background: transparent;
+  border: 3px solid #161d6f;
+  border-radius: 30px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project-links a:hover {
+  color: #810000;
+  border: 3px solid #810000;
+}
+
 /* logos */
 
 .logo {
@@ -76,7 +113,6 @@ nav a:hover {
   max-height: 40px;
   border-radius: 15px;
 }
-
 
 .bubbles img {
   width: 50px;
