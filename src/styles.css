@@ -65,6 +65,30 @@ nav a:hover {
   font-size: 22px;
 }
 
+/* title of about and contact pages */
+
+header h1.title,
+header .about-heading {
+  left: 6px;
+  top: 35%;
+  color: #810000;
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+  font-size: 60px;
+  font-family: "Train One", cursive;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-left: 10px;
+}
+
+header .about-heading {
+  position: fixed;
+}
+
+header .contact-heading {
+  position: absolute;
+}
+
 /* hero of the page */
 
 .hero {
