@@ -180,11 +180,6 @@ section a:hover {
   border-radius: 50%;
 }
 
-.logo-small {
-  max-height: 40px;
-  border-radius: 15px;
-}
-
 /* about page images and links */
 
 section img {
@@ -285,7 +280,8 @@ section img:hover {
     font-size: 18px;
   }
 
-  h1 {
+  h1,
+  .typing {
     font-size: 40px;
   }
 
