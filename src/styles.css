@@ -108,6 +108,11 @@ section marquee.sneak-peak {
   font-family: var(--default-font-family);
 }
 
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 section .about-me {
   font-family: var(--default-font-family);
   font-size: 20px;
@@ -182,10 +187,6 @@ section a:hover {
 .logo {
   max-height: 70px;
   border-radius: 50%;
-}
-
-.intro {
-  font-family: var(--default-font-family);
 }
 
 /* about page images and links */
@@ -312,10 +313,6 @@ section img:hover {
 
   header h1.title {
     font-size: 40px;
-  }
-
-  .intro {
-    font-size: 100px;
   }
 
   .weather-project {
