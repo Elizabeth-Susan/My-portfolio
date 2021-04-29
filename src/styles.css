@@ -9,7 +9,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 20px auto;
   padding: 0;
   background: var(--background);
 }
@@ -285,6 +285,10 @@ section img:hover {
 }
 
 @media (max-width: 800px) {
+  body {
+    max-width: 500px;
+  }
+
   h2 {
     font-size: 18px;
   }
