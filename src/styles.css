@@ -113,9 +113,10 @@ section marquee.sneak-peak {
   flex-wrap: wrap;
 }
 
-section .about-me {
+.para-about {
   font-family: var(--default-font-family);
   font-size: 20px;
+  text-align: justify;
 }
 
 section marquee.sneak-peak {
@@ -197,6 +198,10 @@ section img {
 
 section img:hover {
   transform: scale(1.07);
+}
+
+.float-right {
+  float: right;
 }
 
 .container div a {
@@ -316,7 +321,11 @@ section img:hover {
   }
 
   header h1.title {
-    font-size: 40px;
+    font-size: 30px;
+  }
+
+  .para-about {
+    font-size: 15px;
   }
 
   .weather-project {
