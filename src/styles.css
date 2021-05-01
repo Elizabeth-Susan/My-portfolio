@@ -101,8 +101,7 @@ header .contact-heading {
 
 /* about page */
 
-section p.intro,
-section marquee.sneak-peak {
+section p.intro {
   padding-top: 20px;
   margin: 0 70px;
   font-family: var(--default-font-family);
@@ -119,9 +118,16 @@ section marquee.sneak-peak {
   text-align: justify;
 }
 
-section marquee.sneak-peak {
-  font-size: 20px;
-  font-weight: 700;
+hr {
+  border: none;
+  background: none;
+  border-top: 20px dotted #424242;
+  width: 25%;
+  height: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .blocks {
@@ -171,6 +177,7 @@ i {
   background: #fff;
   /* important for background opacity */
   z-index: 2;
+  border-radius: 10px;
 }
 
 .blocks .card:hover .face.face1 {
@@ -196,7 +203,12 @@ i {
   padding: 20px;
   box-sizing: border-box;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
-  transform: translateY(-10px);
+  transform: translateY(-5px);
+}
+
+.content p {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .content button {
@@ -412,9 +424,15 @@ section img:hover {
   .weather-project {
     margin-top: 20px;
   }
+}
 
+@media (max-width: 1200px) {
   .blocks {
     flex-direction: column;
+  }
+
+  .blocks .card {
+    margin-bottom: 30px;
   }
 }
 
