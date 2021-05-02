@@ -366,10 +366,13 @@ section a:hover {
 
 /* Footer styling */
 
+footer {
+  font-family: var(--cursive-font-family);
+  font-size: 25px;
+}
+
 .footer-links {
   color: var(--primary-color);
-  font-family: var(--cursive-font-family);
-  font-size: 18px;
   text-decoration: none;
 }
 
@@ -399,6 +402,10 @@ section a:hover {
 
   header h1.title {
     font-size: 30px;
+  }
+
+  footer {
+    font-size: 20px;
   }
 
   .hero {
