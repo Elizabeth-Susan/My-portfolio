@@ -6,7 +6,7 @@
   --primary-color: #810000;
   --secondary-color: #161d6f;
   --accent-color: #fafafa;
-  --hr-color: #424242;
+  --hr-color: #21094e;
 }
 
 body {
@@ -161,9 +161,9 @@ section img:hover {
 }
 
 hr {
-  background: none;
+  background: var(--hr-color);
   border: none;
-  border-top: 20px dotted var(--hr-color);
+  border-top: 5px solid var(--hr-color);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -270,11 +270,31 @@ i {
 }
 
 .content button {
-  border: 3px solid #0277bd;
-  border-radius: 40px;
+  border: none;
   background: transparent;
-  font-family: var(--default-font-family);
-  padding: 10px 20px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.content button:hover {
+  border: none;
+}
+
+.content a {
+  color: var(--secondary-color);
+  display: inline-block;
+  font-family: var(--cursive-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: 500;
 }
 
 /* contact page */
@@ -283,7 +303,7 @@ section h1.heading {
   font-size: 50px;
 }
 
-section a {
+.social-links a {
   border-radius: 50%;
   color: var(--primary-color);
   font-size: 18px;
@@ -293,7 +313,7 @@ section a {
   transition: all 150ms ease-in-out;
 }
 
-section a:hover {
+.social-links a:hover {
   color: var(--accent-color);
   background: var(--primary-color);
   filter: drop-shadow(2px 4px 8px #000);
