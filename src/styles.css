@@ -461,3 +461,9 @@ footer {
     top: 25%;
   }
 }
+
+@media (max-width: 320px) {
+  ul a {
+    font-size: 13px;
+  }
+}
