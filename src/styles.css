@@ -294,7 +294,6 @@ i {
 .content a:hover {
   color: var(--primary-color);
   text-decoration: underline;
-  font-weight: 500;
 }
 
 /* contact page */
